@@ -1,0 +1,38 @@
+{
+	"name": "convetions-synergy",
+	"version": "0.0.0",
+	"description": "Conventios that are used in the code of all members",
+	"main": "index.js",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Sy-ner-gy/docs-convetions.git"
+	},
+	"keywords": [
+		"conventional",
+		"commit",
+		"architecture",
+		"schemes",
+		"dcterms",
+		"aglsterms"
+	],
+	"author": "Synergy",
+	"license": "GPL-3.0-or-later",
+	"bugs": {
+		"url": "https://github.com/Sy-ner-gy/docs-convetions/issues"
+	},
+	"homepage": "https://github.com/Sy-ner-gy/docs-convetions#readme",
+
+	"devDependencies": {
+		"autoprefixer": "^10.3.1",
+		"postcss": "^8.3.5",
+		"purgecss": "^4.0.3",
+		"postcss-cli": "^8.3.1",
+		"sass": "^1.35.2"
+	},
+	"dependencies": {
+
+	},
+	"scripts": {
+		"css-main": "sass main.scss:main.css && postcss main.css --replace --use autoprefixer"
+	}
+}
